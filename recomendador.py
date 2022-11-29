@@ -1,6 +1,4 @@
-from random import randint
 import pandas as pd
-import numpy as np
 import re
 def extract(pelis): #Leo el archivo
     df = pd.read_csv(pelis) 
